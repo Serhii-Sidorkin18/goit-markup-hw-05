@@ -839,3 +839,10 @@ background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
 }
+
+.modal-checkbox-item:checked + .modal-checkbox-label span {
+    background-color: #404bbf;
+    border: none;
+    fill #F4F4FD;
+}
+   
