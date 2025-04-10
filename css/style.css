@@ -787,10 +787,6 @@ text-decoration-skip-ink: none;
 color: #4d5ae5;
 
 }
-.modal-checkbox-item:checked + .modal-checkbox-label .vector {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-  }
+
 
  
