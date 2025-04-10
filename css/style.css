@@ -730,7 +730,7 @@ display: block;
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .modal-icon-wrap {
     position: relative;
@@ -832,10 +832,10 @@ fill: transparent;
     fill: #4D5AE5; 
 }
 
-.modal-checkbox-item:checked + span {
-    background-color: #404bbf; 
-    border: none;
-    fill: #F4F4FD;
 
+
+.modal-checkbox-item:checked + .modal-checkbox-label + span {
+background-color: #404bbf;
+border: none;
+fill: #F4F4FD;
 }
-
