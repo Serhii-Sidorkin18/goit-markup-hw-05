@@ -645,13 +645,13 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-svg-btn {
     fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-svg-btn:hover {
-    fill: #fff;
-}
+.modal-svg-btn:hover,
 .modal-svg-btn:focus {
     fill: #fff;
 }
+
 .modal-button {
     position: absolute;
     top: 24px;
