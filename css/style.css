@@ -831,7 +831,9 @@ fill: transparent;
 .modal-form-input:focus + svg {
     fill: #4D5AE5; 
 }
-
+.modal-field {
+    margin-bottom: 8px;
+}
 
 
 .modal-checkbox-item:checked + .modal-checkbox-label + span {
